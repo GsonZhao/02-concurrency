@@ -9,3 +9,13 @@ license = "MIT"
 
 [dependencies]
 anyhow = "1.0.98"
+oneshot = "0.1.11"
+wide = "0.7"
+
+[dev-dependencies]
+benchmark = "0.1.0"
+criterion = "0.6.0"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
